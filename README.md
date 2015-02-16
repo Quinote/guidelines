@@ -1,7 +1,5 @@
-# Guidelines
+# Guidelines - QuiNote Software Group
 Notes on code, best practice, etc.
-
-*QuiNote Software Group*
 
 
 ### Code Headers
@@ -22,13 +20,11 @@ Separate HTML, CSS and JavaScript/jQuery into their own files. Separate code fil
 
 Keep code files organized by function. For example, in a typical object-oriented JS file, there will be sections for global variables (try to avoid using these when possible, though--we have to be wary of overlapping variable names), prototype definitions and functions. These should be clearly marked as such:
 
-
-- `//**************************************
-
-- `// PROTOTYPE OBJECTS
-
-- `//**************************************
-
+```
+`//**************************************
+`// PROTOTYPE OBJECTS
+`//**************************************
+```
 
 This makes code files much easier to read. Also, consider marking important functions and prototypes, so that readers know where to look first. 
 
